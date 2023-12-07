@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio2</title>
+    <style>
+ 
+        body {
+            background-color: #020000;
+            font-family: georgia;
+        }
+ 
+        .container {
+            width: 1200px;
+            background-color: rgb(255, 252, 248);
+            border: 5px solid #666;
+            margin: 40px auto;
+            display: flex;
+            flex-direction: column;
+        }
+ 
+        .container-hz {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            border-image: fill;
+        }
+ 
+        .columna {
+            min-height: 100px;
+            background-color: rgb(144, 132, 229);
+            border: 3px solid #000000;
+            max-width: 600px;
+            margin: 8px;
+            padding: 35px;
+            font-size: 24px;
+        }
+
+        .titular h2 {
+            text-align: center;
+            font-size: 55px;
+            text-decoration: overline underline;
+            color: #060000;
+        }
+ 
+        .uno {
+            width: 640px;
+        }
+    </style>
+</head>
+ 
+<body>
+ 
+ 
+    <div class="container">
+        <div class="titular">
+            <h2>Trabajar con texto en HTML</h2>
+        </div>
+        <div class="container-hz">
+            <div class="columna uno">
+                <h3>Cómo trabajar con títulos y párrafos de texto en HTML</h3>
+                HTML tiene seis etiquetas de títulos/subtítulos: de h1 hasta h6, correspondiendo los números al nivel jerárquico.
+                Es decir, una etiqueta h1 sería el nivel jerárquico máximo, h2 los subtítulos de los niveles h1 y así sucesivamente.
+                Por otra parte, los párrafos de texto normal se marcan con p.
+                Con ambas cosas tenemos los elementos básicos para crear texto en HTML.
+                Si comparamos esto con Word, por ejemplo, las etiquetas de títulos serían el equivalente a los estilos “Titulo 1”, 
+                “Título 2”, etc. y la etiqueta de párrafo el equivalente al estilo “normal”. De hecho, al pegar un texto desde Word 
+                a un editor HTML visual, así se deberían convertir en el código HTML generado. Puedes probarlo con Quackit, por ejemplo.
+                <img src="img\descarga.jpg" alt="">
+            </div>
+            <div class="container-vrt">
+ 
+                <div class="columna dos">
+                    <h3>Cómo crear listas en páginas web</h3>
+                    Las listas son otro elemento indispensable en un contenido. Es muy fácil crearlas en HTML, en el caso de 
+                    las listas enumeradas se usa la etiqueta ol y en el caso de las no enumeradas (con viñetas), se usa la 
+                    etiqueta ul. En ambos casos se usa li para los elementos de la lista.</div>
+                <div class="columna tres">
+                    <h3>Cómo usar tablas en páginas web</h3>
+                    Aquí, la etiqueta table, como ya te puedes imaginar, demarca la tabla. Dentro de ella, cualquier fila 
+                    de cualquier tipo se demarca con tr que viene de “table-row” (fila de tabla en inglés). Dentro de esto, 
+                    puede haber diferentes tipos de filas que se diferencian por el tipo de celdas que contienen.
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
